@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Climbing fee</title>
+    <style>
+        body{
+            background-color:blueviolet;
+        }
+        h1{
+            background-color: rgb(120, 179, 33);
+            text-align: center;
+            width: 1500px; height: 40px;
+        }
+    </style>
+    <script type="text/javascript">
+    function product() {
+        var number = document.calculation.number.value;
+        alert(number*7000)
+    }
+
+    </script>
+</head>
+    <body>
+        <h1><a href="Main.html">Main Menu</a></h1>
+        <p>Mount Fuji, Japan’s highest and much-climbed mountain, has lately been acknowledged as a priceless part of the world’s cultural heritage. 
+            But a climb to appreciate this heritage may now come with the hefty fee tag of 7,000 yen per person.
+        </p>
+        <form name="cal">
+            <label>
+                Number of people(7000Yen):
+            <input type="text" name ="number" value="0"></label> <br>
+            <input type="button" value="cal" onclick="product()">
+        </form>
+    </body>
+</html>
